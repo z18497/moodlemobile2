@@ -1,26 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
 
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
-        version   = "1.0.0">
+  <name>PhoneGap Example</name>
+  <description>
+      An example for phonegap build docs.
+  </description>
+  <author href="https://build.phonegap.com" email="support@phonegap.com">
+      wildabeast
+  </author>
 
-    <name>Vumzu</name>
+  <!-- all platforms -->
+  <preference name="phonegap-version" value="cli-6.0.0" />
+  <preference name="orientation" value="landscape" />
+  <preference name="fullscreen" value="true" />
 
-    <description>
-        Hello World sample application that responds to the deviceready event.
-    </description>
+  <!-- iOS only -->
+  <preference name="target-device" value="universal" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="true" />
+  <preference name="deployment-target" value="7.0" />
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
-    </author>
+  <!-- Android only -->
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="10" />
+  <preference name="android-maxSdkVersion" value="15" />
+  <preference name="android-targetSdkVersion" value="12" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
 
-    <!--
-        If you do not want any permissions to be added to your app, add the
-        following tag to your config.xml; you will still have the INTERNET
-        permission on your app, which PhoneGap requires.
-    -->
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
@@ -42,39 +54,6 @@
         <preference name="phonegap-version"       value="3.5.0" />
     -->
 
-    <!-- Plugins -->
-
-    <!-- Core plugins -->
-    <access origin="*" />
-        <gap:platform name="android" />
-        <feature name="http://api.phonegap.com/1.0/camera" />
-        <feature name="http://api.phonegap.com/1.0/file" />
-        <feature name="http://api.phonegap.com/1.0/geolocation" />
-        <feature name="http://api.phonegap.com/1.0/media" />
-        <feature name="http://api.phonegap.com/1.0/notification" />
-        <gap:plugin name="cordova-plugin-console" source="npm" />
-        <gap:plugin name="cordova-plugin-media-capture" source="npm" />
-        <gap:plugin name="cordova-plugin-device" source="npm" />
-        <gap:plugin name="cordova-plugin-file" source="npm" />
-        <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-        <gap:plugin name="cordova-plugin-geolocation" source="npm" />
-        <gap:plugin name="cordova-plugin-media" source="npm" />
-        <gap:plugin name="cordova-plugin-network-information" source="npm" />
-        <gap:plugin name="cordova-plugin-dialogs" source="npm" />
-        <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-        <gap:plugin name="com.synconset.imagepicker" source="pgb" />
-        <gap:plugin name="cordova-plugin-x-toast" source="npm" />
-        <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-        <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-        <plugin name="cordova-plugin-mauron85-background-geolocation-phonegapbuild" spec="0.7.3" />
-        <plugin name="de.appplant.cordova.plugin.background-mode" spec="0.6.4" source="pgb" />
-        <plugin name="phonegap-plugin-push" spec="~1.4.5" source="npm" />
-
-    <!-- Third party plugins -->
-    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
 
     <!-- Define app icon for each platform. -->
     <icon src="resources/android/icon.png" />
