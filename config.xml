@@ -71,21 +71,21 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="res/android/icon.png" />
-    <icon src="res/android/icon/ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="res/android/icon/mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="res/android/icon/hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="res/android/icon/xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="res/android/icon/xxhdpi.png"  gap:platform="android"    gap:qualifier="xxhdpi" />
-    <icon src="res/android/icon/xxxhdpi.png"  gap:platform="android"    gap:qualifier="xxxhdpi" />
+    <icon src="resources/android/icon.png" />
+    <icon src="resources/android/icon/ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="resources/android/icon/mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="resources/android/icon/hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="resources/android/icon/xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="resources/android/icon/xxhdpi.png"  gap:platform="android"    gap:qualifier="xxhdpi" />
+    <icon src="resources/android/icon/xxxhdpi.png"  gap:platform="android"    gap:qualifier="xxxhdpi" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="res/android/splash/ldpi.png"       gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="res/android/splash/mdpi.png"       gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="res/android/splash/hdpi.png"       gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="res/android/splash/xhdpi.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
-    <gap:splash src="res/android/splash/xxhdpi.png"      gap:platform="android" gap:qualifier="port-xxhdpi" />
-    <gap:splash src="res/android/splash/xxxhdpi.png"      gap:platform="android" gap:qualifier="port-xxxhdpi" />
+    <gap:splash src="resources/android/splash/ldpi.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="resources/android/splash/mdpi.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="resources/android/splash/hdpi.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="resources/android/splash/xhdpi.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+    <gap:splash src="resources/android/splash/xxhdpi.png"      gap:platform="android" gap:qualifier="port-xxhdpi" />
+    <gap:splash src="resources/android/splash/xxxhdpi.png"      gap:platform="android" gap:qualifier="port-xxxhdpi" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>100</string>
