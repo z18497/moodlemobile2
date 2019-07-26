@@ -798,7 +798,7 @@ ion-app.app-root {
 
   // For some reason, in iOS the pages don't inherit the background-color from ion-app, set it explicitly.
   .ion-page {
-    background-color: $background-color;
+    background-color: white;
   }
 
   // Embed video responsive classes.
