@@ -2,7 +2,7 @@
     "app_id": "com.learn.vumzu",
     "appname": "Vumzu App",
     "desktopappname": "Vumzu Desktop",
-    "versioncode": 3700,
+    "versioncode": 1100,
     "versionname": "1.1.0",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
