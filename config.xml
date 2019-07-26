@@ -5,7 +5,7 @@
     versionCode = "10"
     version     = "1.0.0" >
 
-  <name>PhoneGap Example</name>
+  <name>Vumzu</name>
   <description>
       An example for phonegap build docs.
   </description>
